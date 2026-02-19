@@ -55,13 +55,13 @@ git clone <your-repo-url>
 cd Heart-Disease-Analysis
 Install Flask (if not already):
 
-pip install flask
+pip install -r requirements.txt  after creating a virtual environment
 Run the app:
 
 python app.py
 Open your browser at http://localhost:5000 to view the website and dashboard.
 
-📂 Project Structure
+Project Structure
 Heart-Disease-Analysis/
 HDA/
 ├── assets/ # Images, icons, and other media
@@ -78,4 +78,5 @@ HDA/
    python -m http.server 8000
 
  tableau dashboard links :https://public.tableau.com/app/profile/alooru.venkata.naga.bhavya.sri/viz/heartdiseaseanalysis_17713361060630/Dashboard2
+
  video demo :https://drive.google.com/file/d/1E_9YD8ygylQ-Vb4GdzE4M13YFWFN0o9C/view?usp=drive_link
